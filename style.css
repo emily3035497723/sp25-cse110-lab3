@@ -83,19 +83,19 @@ header {
 
 }
 
-.container span {
+.container span { /*Descendant Combinator, change all span in container no matter what level*/
     color: color-mix(in srgb, skyblue 70%, gray);;
 }
 
-.container > label {
+.container > label { /*Child, only change the next level in container, >= 2 then don't change*/
     font-weight: bold;
 }
 
-.container + p {
+.container + p { /*Adjacent, change the first p after container, same level with container*/
     text-decoration: underline;
 }
 
-.container ~ p {
+.container ~ p {/*Sibling, change all the p after container, same level with the container*/
     color: rgb(152, 213, 204);
 }
 
@@ -113,16 +113,16 @@ input[type="checkbox"] {
 }
 
 
-a {
+a { /*element*/
     text-decoration: none; /* remove the underline from links */
     color: rgb(86, 86, 184); /* color for text */
 }
 
-p.highlight {
+p.highlight { /*combining two selectors*/
     background-color: rgb(224, 236, 255);
 }
 
-h2, p {
+h2, p { /*selector list*/
     color: #ca7e9c;
   }
   

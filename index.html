@@ -5,6 +5,7 @@
   <meta name="description" content="CSE110 Team17 First Meeting">
   <title>Team17 First meeting</title>
   <link rel="icon" href="favicon_io/favicon.ico">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -45,18 +46,20 @@
         <li>Video</li>
       </ol>
 
-      <p><em>Unfinished Items:</em></p>
+      <p ><em>Unfinished Items:</em></p>
       <ul>
         <li>Upload our own links to the team repo</li>
       </ul>
 
-      <p>Questions/Concerns:</p>
+      <p id="highlight">Questions/Concerns:</p>
       <p><span>Should we always meet on campus on Sunday?</span></p>
     </section>
 
     <section>
-        <h2>Extra Tags</h2>
-        <div>This is a div just for testing.</div>
+      <div class="card">
+        <h3>Meeting Notes</h3>
+        <p>Discussed project milestones and deliverables.</p>
+      </div>
     </section>
 
     <section>
@@ -128,6 +131,51 @@
         </fieldset>
       </form>
     </section>
+  
+
+    <section>
+      <h2>CSS Styling Demo</h2>
+    
+      <div class="box">
+        This is a <code>.box</code> styled with longhand margin/padding and border, and fixed width.
+      </div>
+      <br>
+    
+      <div class="container">
+        This is a <code>.container</code> styled with shorthand margin and padding, and max-min width. 
+        <span>Testing for Descendant Combinator</span>
+        <label>Testing for Child Combinator <input type="text" /></label>
+      </div>
+
+      <p>Only I have underline</p>
+      <p>I am a sibling</p>
+      <p>Me too, we r both testing for General Sibling Combinator</p>
+
+      <p class="highlight">Testing Combining Two Selectors</p>
+
+    </section>
+  
+
+    <div class="box">Empty Box, testing for inline-block</div>
+    <div class="box">Another Empty Box testing inline-block</div>
+    <div class="box box1">Empty Box for relative position</div>
+    <div class="box box2">Empty Box for absolute position, all the boxes will become pink when you click it</div>
+
+    <div class="flexbox">
+      <div class="item">A</div>
+      <div class="item">B</div>
+      <div class="item">C</div>
+      <div class="item">D</div>
+    </div>
+
+    <div class="grid-layout">
+      <div class="item">A</div>
+      <div class="item">B</div>
+      <div class="item">C</div>
+      <div class="item">D</div>
+      <div class="item">E</div>
+    </div>
+
   </main>
 
   <footer>

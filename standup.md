@@ -5,16 +5,16 @@
 
 ## 👥 Participants
 - Emily
-- Kai
-- Jason
+- Jonathan
+- Willson
 
 ## 🧾 Updates
 
-| Name   | Yesterday's Work | Today’s Plan | Blockers |
+| Name   | Yesterday's Work | Today’s Plan | Issue |
 |--------|------------------|--------------|----------|
 | Emily  | Finished CSS Grid layout | Add responsiveness | N/A |
-| Kai    | Refactored nav bar | Add animation | Waiting for merge |
-| Jason  | Created issue templates | Standup.md template | N/A |
+| Jonathan    | Refactored nav bar | Add animation | Waiting for merge |
+| Willson  | Created issue templates | Standup.md template | N/A |
 
 ## 📝 Notes
 - Discuss PR conflicts
@@ -22,4 +22,4 @@
 
 ## ✅ Action Items
 - [ ] Emily: Add media query by tonight
-- [ ] Jason: Setup GitHub pages
+- [ ] Willson: Setup GitHub pages

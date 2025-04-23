@@ -23,7 +23,7 @@ body {
 }
   
 header {
-    background-color: #DFCED5;
+    background-color: hsl(270, 40%, 80%);
     color: var(--text-color, #333);
     padding: 10pt;
     text-align: center;
@@ -42,7 +42,7 @@ header {
     padding-left: 15px;
 
     border-style: solid;               /* 線條樣式：solid, dashed, dotted... */
-    border-color: #61a3ee;             /* 線條顏色 */
+    border-color: color(display-p3 0.38 0.64 0.93);             /* 線條顏色 */
     border-width: 2px;                 /* 線條粗細 */
     border-radius: 10px;
 
@@ -84,7 +84,7 @@ header {
 }
 
 .container span {
-    color: rgb(157, 194, 210);
+    color: color-mix(in srgb, skyblue 70%, gray);;
 }
 
 .container > label {
